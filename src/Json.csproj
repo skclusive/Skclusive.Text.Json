@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Skclusive.Extensions.DependencyInjection" Version="5.0.0-rc1" />
+    <PackageReference Include="Skclusive.Extensions.DependencyInjection" Version="5.0.0-rc4" />
   </ItemGroup>
 
 </Project>
