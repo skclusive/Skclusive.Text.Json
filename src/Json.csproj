@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <VersionPrefix>5.0.0-rc4</VersionPrefix>
+    <VersionSuffix>$(VersionSuffix)</VersionSuffix>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Skclusive.Text.Json</AssemblyName>
+    <PackageId>Skclusive.Text.Json</PackageId>
+    <RootNamespace>Skclusive.Text.Json</RootNamespace>
+    <Authors>Skclusive</Authors>
+    <Company>Skclusive</Company>
+    <Copyright>Skclusive</Copyright>
+    <PackageTags>Skclusive Text Json</PackageTags>
+    <PackageProjectUrl>https://github.com/skclusive/Skclusive.Text.Json</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/skclusive/Skclusive.Text.Json</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Skclusive.Extensions.DependencyInjection" Version="5.0.0-rc1" />
+  </ItemGroup>
+
+</Project>
