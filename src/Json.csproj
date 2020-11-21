@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <VersionPrefix>5.0.0</VersionPrefix>
+    <VersionPrefix>5.1.0</VersionPrefix>
     <VersionSuffix>$(VersionSuffix)</VersionSuffix>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
     <AssemblyName>Skclusive.Text.Json</AssemblyName>
     <PackageId>Skclusive.Text.Json</PackageId>
     <RootNamespace>Skclusive.Text.Json</RootNamespace>
@@ -15,8 +15,12 @@
     <RepositoryUrl>https://github.com/skclusive/Skclusive.Text.Json</RepositoryUrl>
   </PropertyGroup>
 
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
+    <PackageReference Include="System.Text.Json" Version="5.0.0" />
+  </ItemGroup>
+
   <ItemGroup>
-    <PackageReference Include="Skclusive.Extensions.DependencyInjection" Version="5.0.0" />
+    <PackageReference Include="Skclusive.Extensions.DependencyInjection" Version="5.1.0" />
   </ItemGroup>
 
 </Project>
