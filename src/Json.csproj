@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <VersionPrefix>5.1.0</VersionPrefix>
+    <VersionPrefix>5.1.2</VersionPrefix>
     <VersionSuffix>$(VersionSuffix)</VersionSuffix>
     <TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
     <AssemblyName>Skclusive.Text.Json</AssemblyName>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Skclusive.Extensions.DependencyInjection" Version="5.1.0" />
+    <PackageReference Include="Skclusive.Extensions.DependencyInjection" Version="5.1.2" />
   </ItemGroup>
 
 </Project>
