@@ -11,7 +11,7 @@
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3" />
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.4.0-beta.1.build3958" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0-rc.2.*" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
